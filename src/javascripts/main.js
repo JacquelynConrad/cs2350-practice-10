@@ -91,7 +91,7 @@ function displayCards(){
         }
     })
 
-    hideForm
+    hideForm()
 }
 
 document.querySelector("#myForm").onsubmit = addNewCard
